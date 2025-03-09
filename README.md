@@ -75,3 +75,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 - National Weather Service for providing the weather data API
 - MCP framework for enabling AI tool integration
+- Documentation on Model context protocol: https://modelcontextprotocol.io/quickstart/server#test-with-commands
