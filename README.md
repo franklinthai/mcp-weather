@@ -27,24 +27,27 @@ MCP Weather is a Python application that serves as an MCP tool, allowing AI assi
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/mcp-weather.git
+   git clone https://github.com/jpan8866/mcp-weather.git
    cd mcp-weather
    ```
-
-2. Install dependencies:
+2. You will need the python package manager `uv` to run the server
    ```
-   pip install -e .
+   curl -LsSf https://astral.sh/uv/install.sh | sh
    ```
 
 ## Usage
 
 ### Running as an MCP Service
 
-```bash
-python main.py
+To test the server, run 
+```
+uv run weather.py
 ```
 
-This will start the MCP service using stdio transport, making it available for AI assistants to use.
+If the server runs successfully without errors, you can make the tool available with the following command:
+```
+PATH/uv --directory ABSOLUTE_PATH/mcp-weather run weather.py
+```
 
 ### Available Tools
 
