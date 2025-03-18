@@ -81,4 +81,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 - Documentation on Model context protocol: https://modelcontextprotocol.io/quickstart/server#test-with-commands
 
 
-STRAIGHT VIBE CODING
+STRAIGHT VIBE CODING THANKS TO ORIGINAL AUTHOR
