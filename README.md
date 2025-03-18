@@ -48,6 +48,10 @@ If the server runs successfully without errors, you can make the tool available 
 ```
 PATH/uv --directory ABSOLUTE_PATH/mcp-weather run weather.py
 ```
+### Running Client
+To run the client, run
+```
+uv run client.py path/to/weather.py
 
 ### Available Tools
 
